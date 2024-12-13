@@ -1,0 +1,47 @@
+body {
+	display: grid;
+	place-items: center;
+	height: 100svh;
+	background-color: #222;
+	padding: 1rem;
+}
+.card {
+	display: grid;
+	justify-items: stretch;
+	align-content: center;
+	gap: 1rem;
+	background-color: #ddd;
+	padding: 1rem;
+	border-radius: 1rem;
+	height: 80svh;
+	width: 60svh;
+	max-width: 80svh;
+}
+.inline {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 0.5rem;
+}
+.color {
+	width: 50%;
+}
+.code{
+	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.card {
+		height: 80svh;
+		width: 60svh;
+		max-width: 80svh;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+	.card {
+		height: 80svh;
+		width: 60svh;
+		max-width: 80svh;
+	}
+}
