@@ -9,10 +9,11 @@
 /coverage
 
 # production
-# /build
-/public
+public
 src
-*.json
+package-lock.json
+package.json
+build
 tailwind.config.js
 
 
